@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vyshu's Portfolio Website</title>
+        <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
-        <!-- Update these with your own fonts -->
+        <!--fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
         
         <link rel="stylesheet" href="css/style.css">
@@ -16,7 +17,8 @@
     <body>
         <header>
             <div class="logo">
-                <img src="img/logo.png" alt="">
+                <a href= "#home"><img src="img/logo.png" alt="Vyshu's logo">
+            </a>
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -24,9 +26,9 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home 🏛</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Skills 💪</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Projects 📍</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About 👧🏽</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About 👩🏽‍💻</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Skills 💪🏾</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,51 +38,24 @@
 
             <h1 class="section__title section__title--intro">
                 <span class="wave">👋🏾</span>
-                Hello, I am <strong>Vyshnavi Namani</strong>
+                Hey there, I'm <strong>Vyshnavi Namani</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Product Management &  Design</p>
+            <p class="section__subtitle section__subtitle--intro"> Product Manager & Product Designer</p>
             <p class = "links" style="user-select: auto;"><a id="contactheader" style="user-select: auto;"> </a><a href="https://www.linkedin.com/in/vnamani3/" style="user-select: auto;"> linkedin</a> / </a>  
                 <a href="https://drive.google.com/file/d/1Qq8rrT2rVXAg1a1DwN764AgHYolxxNTV/view?usp=sharing" style="user-select: auto;"> resume </a> / <a href="https://www.notion.so/Vyshu-s-Improvement-In-Public-8fa1f9413c0f4d308d7f4496db18db08" style="user-select: auto;"> notion </a></p>
             <img src="img/office-pic.jpg" alt="a picture of vyshu in studio" class="intro__img">
             
         </section>
         
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do 💪</h2>
-            <div class="services">
-                <div class="service">
-                    <div class= header-section-1><h3>Design + Development</h3></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <div class= header-section-2><h3>Entreprenuership</h3></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <div class= header-section-3><h3>Digital Marketing</h3></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="newbtn">My Work 📍 </a>
-        </section>
-        
-        <!--Resume-->
-            <a class="resume" id= "resume" href="https://drive.google.com/file/d/1Qq8rrT2rVXAg1a1DwN764AgHYolxxNTV/view?usp=sharing">
-            </a>
         <!-- My Work -->
         <section class="my-work" id="work">
             <h2 class="section__title section__title--work">My work 📍</h2>
             <div class="lg-col-bg" >
                 <div class="lg-col-wrt2">
                 Case study coming soon to all works. See more designs on 
-                <a target="_blank" class="soc-lnk" href="http://dribbble.com/">Dribbble</a>, 
-                <a target="_blank" class="soc-lnk" href="http://instagram.com/">Instagram</a> or 
-                <a target="_blank" class="soc-lnk" href="http://behance.com/">Behance</a>.
+                <a target="_blank" class="soc-lnk" href="https://devpost.com/Vnamani123?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">Devpost</a>,
+                <a target="_blank" class="soc-lnk" href="https://www.notion.so/Vyshu-s-Improvement-In-Public-8fa1f9413c0f4d308d7f4496db18db08">Notion</a>, or
+                <a target="_blank" class="soc-lnk" href="https://medium.com/@ohvyshu">Medium</a>  
                 </div>
             </div>
             <br> </br>
@@ -150,16 +125,39 @@
         
         <!-- About me -->
         <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am 👧🏽</h2>
-            <p class="section__subtitle section__subtitle--about">Designer & PM based out of Atlanta</p>
+            <h2 class="section__title section__title--about">Who I am 👩🏽‍💻</h2>
+            <p class="section__subtitle section__subtitle--about"> Born in India, raised in Atlanta</p>
             
             <div class="about-me__body">
-                <p>I work with people, organizations, and technology to make doing good easier for everyone.I am an aspiring product manager who wants to make doing good easier. ommitted to solving problems, improving lives and driving business through human-centered design. My Background in Tech and Human-computer Interaction helps me balance business goals and real users' demands.</p>
-                <p>Changing from making technology feasible for people to making technology easier and humanistic for people</p>
+                <p>A sophomore at Georgia Tech studying Computational Media with a HCI and Interaction Design concentrations. I have experiences in project management, product design, programming, data analytics, and startup consulting. I want to help make the world of human-centered design more human by leading the end-to-end design process from strategy to implementation. Combining my experiences in PM with my background in Design + Dev, I have developed a strong sense of systems design thinking, storytelling and communication skills, and a passion for design strategy.</p>
+                <p>In my free time, I like portrait photography, traveling, food, creating mood-themed notion pages, reading books in the sun, doing yoga to cure my back-pain, biking, and riding into the sunset on my moped. I developed a love for storytelling and sharing my experiences with blogging and photography.</p>
             </div>
             
             <img src="img/birthday-pic.jpg" alt="Vyshu on birthday" class="about-me__img">
          </section>
+
+        <!--New skills-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do 💪🏾</h2>
+            <div class="services">
+                <div class="service">
+                    <div class= "header-section-1"><h3> Design + Development 🎨 </h3></div>
+                    <p>My specialites lies in combining my technical knowledge and artistic creativity to build a great product. I find great satisfaction in creating something and seeing it to the end, whether it’s a (not so) revolutionary app idea I thought of in the shower, or a simple doodle on a napkin.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <div class= "header-section-2"><h3> Entreprenuership 💡</h3></div>
+                    <p>Along the way, I developed a love of storytelling and sharing my experiences. I started blogging, but design is where I think I can truly tell a great story. I am proud to say that I in my first year of PM created over 7 products, with 3 received awards, and gained 1300+ intended users while collaborating with talented 30+ technologies.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <div class= "header-section-3"><h3> Social Good 📈  </h3></div>
+                    <p>A purpose to my toolbox in product management and design. I strive to use Human-Centered Interaction for social good. You can see this from my experiences in Hack4Impact, Develop for Food, and multitude of small business relating to social impact topics. Bringing something meaningful and humanistic product or experiences is important to me.</p>
+                </div> <!-- / service -->
+            </div> <!-- / skills -->
+            
+            <a href="https://drive.google.com/file/d/1Qq8rrT2rVXAg1a1DwN764AgHYolxxNTV/view?usp=sharing" style="user-select: auto" class="newbtn">My Resume  📰 </a>
+        </section>
          
         <!-- Footer -->
         <footer class="footer">
@@ -168,32 +166,32 @@
             <a> |    (770) 742-1322  📞 |    Atlanta, Georgia  🍑 |   Bachelors of Science @ Georgia Tech 🐝</a>
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/vnamani3/">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="http://dribbble.com">
+                    <a class="social-list__link" href="mailto:ohvyshu@gmail.com">
                         <i class="fab fa-google"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="http://dribbble.com">
+                    <a class="social-list__link" href="https://dribbble.com/VDesignStudios">
                         <i class="fab fa-dribbble"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com">
-                        <i class="fab fa-instagram"></i>
+                    <a class="social-list__link" href="https://www.pinterest.com/snipergirl123/_saved/">
+                        <i class="fab fa-pinterest"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com">
+                    <a class="social-list__link" href="https://github.com/Vnamani123">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
             </ul>
-            <p class = "last" style="user-select: auto;"> Copyright ©2021 All rights reserved |  Made with  ❤️ & ☕️ </p>
+            <p class = "last" style="user-select: auto;"> Copyright ©2021 All rights reserved |  Handmade for you with  ❤️ </p>
         </footer>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    

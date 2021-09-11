@@ -176,6 +176,15 @@ header {
     justify-content: space-between;
     padding: 1em;
 }
+.header-section-1 {
+    color: var(--clr-accent);
+}
+.header-section-2 {
+    color: var(--clr-accent);
+}
+.header-section-3 {
+    color: var(--clr-accent);
+}
 
 .logo {
     max-width: 100px;
@@ -338,16 +347,15 @@ header {
 /*  My services section  */
 
 .my-services {
-    background-color: var(--clr-light);
-    background-image: url(../img/services-bg.jpg);
+    background-color: var(--clr-dark);
     background-size: cover;
-    /* background-blend-mode: multiply; */
+    background-blend-mode: multiply;
     color: var(--clr-light);
     text-align: center;
 }
 
 .section__title--services {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative;
 }
 
@@ -396,8 +404,8 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-    max-width: 130%;
-    max-height: auto;
+    max-width: 150%;
+    max-height: 130%;
     overflow: hidden;
     
 }
@@ -436,6 +444,10 @@ header {
         position: relative;
         z-index: 2;
     }
+    .about-me__body {
+        display: inline-block;
+
+    }
 }
 
 /* My Work -*/ 
@@ -462,7 +474,7 @@ element.style {
     align-items: space-between;
 }
 .row {
-    max-width: 40%;
+    max-width: 35%;
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -480,7 +492,7 @@ div{
 /* footer */
 
 .footer {
-    background: #111;
+    background:var(--clr-light);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
