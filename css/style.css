@@ -479,6 +479,8 @@ element.style {
 }
 .row {
     max-width: 35%;
+    padding-top: 5px;
+    padding-bottom: -1px;
     padding-left: 30px;
     padding-right: 60px;
 }
