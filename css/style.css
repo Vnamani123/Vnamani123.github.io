@@ -114,8 +114,9 @@ strong { font-weight: var(--fw-bold) }
 }
 .links a {
     text-decoration: none;
+    color: var(--clr-accent);
 }
-.links a:link, a:visited {
+.links a:visited {
     color: var(--clr-dark);
 }
 .links a:hover {
@@ -178,12 +179,15 @@ header {
 }
 .header-section-1 {
     color: var(--clr-accent);
+    font-family: 'Fredericka the Great', cursive;
 }
 .header-section-2 {
     color: var(--clr-accent);
+    font-family: 'Texturina', serif;
 }
 .header-section-3 {
     color: var(--clr-accent);
+    font-family: 'Source Code Pro', monospace;
 }
 
 .logo {
@@ -475,6 +479,8 @@ element.style {
 }
 .row {
     max-width: 35%;
+    padding-left: 30px;
+    padding-right: 60px;
 }
 *, *::before, *::after {
     box-sizing: border-box;
